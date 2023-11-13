@@ -1,0 +1,31 @@
+<div class="row">
+    <div class="col-md-4 mx-auto">
+        <div class="card mt-4 text-center">
+            <div class="card-header">
+                <h1>¡Bienvenido!</h1>
+            </div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon mx-auto icon-tabler icon-tabler-circle-key" width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M14 10m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                    <path d="M21 12a9 9 0 1 1 -18 0a9 9 0 0 1 18 0z" />
+                    <path d="M12.5 11.5l-4 4l1.5 1.5" />
+                    <path d="M12 15l-1.5 -1.5" />
+                </svg>
+            <div class="card-body">
+                <form action="/users/signin" method="POST">
+                    <div class="form-group">
+                        <input type="email" class="form-control" name="email" placeholder="E-mail" autofocus>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" name="password" class="form-control" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary btn-block">
+                            Iniciar Sesión
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

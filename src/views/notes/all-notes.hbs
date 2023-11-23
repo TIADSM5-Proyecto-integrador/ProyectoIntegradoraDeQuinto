@@ -1,0 +1,31 @@
+<div class="row t1">
+    {{#each notes}}
+    <div class="col-md-3">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title d-flex justify-content-between aling-items">
+                    {{nombre}} <a href="/notes/edit/{{_id}}"><i class="fas fa-edit"></i></a>
+                </h4>
+                <p class="border border-dark">{{puesto}}</p>
+                <p class="border border-dark">{{salario}}</p>
+                <p class="border border-dark">{{gafette}}</p>
+                <p class="border border-dark">{{seguimiento}}</p>
+                <form action="/notes/delete/{{_id}}?_method=DELETE" method="POST">
+                <input type="hidden" name="_method" value="DELETE">
+                <button type="submit" class="btn btn-danger btn-block btn-sm">
+                    Delete
+                    </button>
+                </form>
+            </div>
+        </div> 
+    </div>
+    {{else}}
+        <div class="card mx-auto">
+            <div class="card-body">
+                <h1>Bienvenido </h1>
+                <p class="lead">No hay ninún candidato registrado</p>
+                <a href="/notes/add" class="btn btn-success btn-block">Crear nuevo candidato</a>
+            </div>
+        </div>
+    {{/each}}
+</div>

@@ -28,7 +28,7 @@ To contribute to this project, you should have knowledge in HTML, CSS, and JavaS
 
 ## Usage
 
-1. Run the application with `npm start`.
+1. Run the application with `npm run dev`.
 2. Access the application at `http://localhost:3000`.
 
 Thank you for considering contributing! If you want to collaborate on this project, follow these steps:

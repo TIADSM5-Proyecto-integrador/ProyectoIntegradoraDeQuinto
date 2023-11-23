@@ -6,7 +6,7 @@ This is a university project. It's a web demo designed for the administration, u
 
 To contribute to this project, you should have knowledge in HTML, CSS, and JavaScript. Familiarity with the following technologies is also helpful:
 - [Express.js](https://expressjs.com/)
-- [MongoDB](https://www.mongodb.com/)
+- [MongoDB](https://www.mongodb.com/) (You need to register on the website and install its desktop app.) 
 
 ## Installation
 

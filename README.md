@@ -12,6 +12,19 @@ To contribute to this project, you should have knowledge in HTML, CSS, and JavaS
 
 1. Clone this repository.
 2. Install dependencies with `npm install`.
+3. strat Node proyect `npm init --yes`
+
+## Package used
+
+- express
+- express-handlebars
+- express-session
+- method-overdrive
+- mongoose
+- passport-local
+- bcryptjs
+- connect-flash
+
 
 ## Usage
 

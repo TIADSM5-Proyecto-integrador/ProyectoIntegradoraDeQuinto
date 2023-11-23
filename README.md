@@ -1,4 +1,4 @@
-#Reclutamiento y capacitación
+# Reclutamiento y capacitación
 
 This is a university project. It's a web demo designed for the administration, updating, and deletion of various types of information. The system is built with a focus on personnel administration.
 
